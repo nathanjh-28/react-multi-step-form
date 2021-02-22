@@ -43,7 +43,6 @@ export class FormUserPersonalDetails extends Component {
                         <Typography variant="h6">
                             Enter Personal Details
                         </Typography>
-                        <Button color="inherit">Login</Button>
                     </Toolbar>
                 </AppBar>
                 <TextField

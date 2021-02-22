@@ -57,7 +57,6 @@ export class FormUserDetails extends Component {
                         <Typography variant="h6">
                             Confirm Details
                         </Typography>
-                        <Button color="inherit">Login</Button>
                     </Toolbar>
                 </AppBar>
                 <List>

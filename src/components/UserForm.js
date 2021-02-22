@@ -70,7 +70,7 @@ export class UserForm extends Component {
                 )
             case 4:
                 return (
-                    <h1> Success Page</h1>
+                    <Success />
                 )
         }
     }
