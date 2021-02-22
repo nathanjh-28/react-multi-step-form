@@ -4,6 +4,7 @@ import FormPersonalDetails from './FormPersonalDetails'
 import Confirm from './Confirm'
 import Success from './Success'
 
+
 export class UserForm extends Component {
 
     state = {

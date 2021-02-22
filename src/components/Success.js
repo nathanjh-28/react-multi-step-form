@@ -8,7 +8,8 @@ import IconButton from '@material-ui/core/IconButton'
 import MenuIcon from '@material-ui/icons/Menu'
 import Typography from '@material-ui/core/Typography'
 
-
+import Box from '@material-ui/core/Box'
+import Container from '@material-ui/core/Container'
 
 
 
@@ -48,22 +49,23 @@ export class Success extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <AppBar position="static">
-                    <Toolbar>
-                        <IconButton edge="start" color="inherit" aria-label="menu">
-                            <MenuIcon />
-                        </IconButton>
-                        <Typography variant="h6">
+                    <Toolbar >
+                        <Typography variant="h6" display="flex" justifyContent="center" alignItems="center">
                             Success!
                         </Typography>
-
                     </Toolbar>
                 </AppBar>
-                <Typography variant="h2">
-                    Thank You for your submission
+                <Container maxWidth='sm'>
+
+                    <Box display="flex" flexDirection="column" justifyContent="center">
+                        <Typography variant="h2">
+                            Thank You for your submission
                         </Typography>
-                <Typography variant="p">
-                    You will get an email with further instructions
+                        <Typography variant="p">
+                            You will get an email with further instructions
                         </Typography>
+                    </Box>
+                </Container>
 
             </ThemeProvider>
         )
